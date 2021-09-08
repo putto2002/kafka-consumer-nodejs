@@ -1,0 +1,21 @@
+{
+  "name": "consumer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "devStart": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "mongoose": "^6.0.5",
+    "node-rdkafka": "^2.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
